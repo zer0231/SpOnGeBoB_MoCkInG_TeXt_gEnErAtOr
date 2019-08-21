@@ -20,8 +20,6 @@ void convert(string& AAA)//To convert text
     	if(i%2 ==0){
         AAA[i]= toupper(AAA[i]);
  		}
- 		else
- 			AAA[i] = tolower(AAA[i]);
     }
 }
 int main (){
